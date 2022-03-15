@@ -257,6 +257,7 @@ section {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 30px;
+  z-index: 5;
 }
 
 .hero .heroIn .modelFull span {
@@ -327,6 +328,7 @@ section {
       grid-template-columns: 1fr 3fr;
   -ms-grid-rows: calc(100vh - 100px);
       grid-template-rows: calc(100vh - 100px);
+  padding: 20px;
 }
 
 .main .mainIn .picBig {
@@ -343,12 +345,12 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 80px;
+  padding: 40px 0px 15px 0px;
 }
 
 .main .mainIn .picBig .mainPic {
   position: relative;
-  height: 720px;
+  height: 100%;
   width: 100%;
   overflow: hidden;
   border-radius: 20px;
